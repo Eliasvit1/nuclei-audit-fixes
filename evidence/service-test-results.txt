@@ -1,0 +1,34 @@
+================================================================================
+RUNTIME SECURITY & REMEDIATION TESTS
+================================================================================
+
+1. Verification Scan with Nuclei:
+Templates loaded: cors, swagger, openapi, redoc
+Target: http://service-backend:80
+Result: 0 matches found (All Swagger/OpenAPI exposure and CORS wildcard misconfigs remediated)
+
+2. HTTP Security Headers Test:
+Frontend (8081):
+  Server: nginx (server_tokens suppressed)
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Content-Security-Policy: default-src 'self' ...
+  Referrer-Policy: strict-origin-when-cross-origin
+Backend (8082):
+  Server: nginx (server_tokens suppressed)
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Content-Security-Policy: default-src 'none'; frame-ancestors 'none';
+LDAP Auth (8083):
+  Server: nginx (server_tokens suppressed)
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+
+3. Rate Limiting Tests:
+Backend /api/data: Burst requests > 30 per minute return HTTP 429 Too Many Requests (Retry-After header present).
+LDAP /login: Burst authentication attempts > 15 per minute return HTTP 429 Too Many Requests.
+
+4. Anonymous Bind Mitigation:
+Empty credential attempt to /login returns HTTP 400 Bad Request:
+{"detail":"Username and password are required. Anonymous binding is prohibited."}
+OpenLDAP 00-disable-anon.ldif disallows bind_anon and requires authc.
