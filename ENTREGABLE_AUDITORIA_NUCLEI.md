@@ -37,6 +37,7 @@ Ante la observación técnica respecto a conectividad y puertos inaccesibles:
   1. [`95341cb`](https://github.com/Eliasvit1/security-frontend/commit/95341cb) - `docs(security): add initial Nuclei security audit report`
   2. [`09e273e`](https://github.com/Eliasvit1/security-frontend/commit/09e273e) - `fix(auth): sanitize user input to prevent XSS vulnerability`
   3. [`c2187d2`](https://github.com/Eliasvit1/security-frontend/commit/c2187d2) - `fix(dashboard): enforce security headers and suppress server tokens`
+  4. [`42d1c7b`](https://github.com/Eliasvit1/security-frontend/commit/42d1c7b) - `refactor(frontend): migrate to React SPA with multi-page session persistence`
 
 ### 2. Repositorio: Backend API
 * **URL GitHub:** [https://github.com/Eliasvit1/security-api](https://github.com/Eliasvit1/security-api)
@@ -47,6 +48,7 @@ Ante la observación técnica respecto a conectividad y puertos inaccesibles:
   3. [`405f695`](https://github.com/Eliasvit1/security-api/commit/405f695) - `fix(api): implement rate limiting on sensitive endpoints`
   4. [`3508863`](https://github.com/Eliasvit1/security-api/commit/3508863) - `fix(api): disable unauthenticated OpenAPI and Swagger documentation endpoints`
   5. [`831b6cc`](https://github.com/Eliasvit1/security-api/commit/831b6cc) - `fix(api): enforce security headers and suppress server tokens`
+  6. [`4ca4bc6`](https://github.com/Eliasvit1/security-api/commit/4ca4bc6) - `fix(cors): authorize React frontend development origins`
 
 ### 3. Repositorio: LDAP Service
 * **URL GitHub:** [https://github.com/Eliasvit1/FastApi-Openldap](https://github.com/Eliasvit1/FastApi-Openldap)
@@ -58,6 +60,7 @@ Ante la observación técnica respecto a conectividad y puertos inaccesibles:
   4. [`2ef22fc`](https://github.com/Eliasvit1/FastApi-Openldap/commit/2ef22fc) - `fix(auth): restrict CORS origins and disable wildcard credentials`
   5. [`c93f39c`](https://github.com/Eliasvit1/FastApi-Openldap/commit/c93f39c) - `fix(auth): disable unauthenticated OpenAPI and Swagger documentation endpoints`
   6. [`36e6d0c`](https://github.com/Eliasvit1/FastApi-Openldap/commit/36e6d0c) - `fix(auth): enforce security headers and suppress server tokens`
+  7. [`31a907f`](https://github.com/Eliasvit1/FastApi-Openldap/commit/31a907f) - `fix(cors): authorize React frontend development origins`
 
 ---
 

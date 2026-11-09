@@ -62,6 +62,7 @@ To address the network connectivity and unreachable port consideration noted by 
 ### 1. Custom Dashboard Repository
 * **Remote URL:** [https://github.com/Eliasvit1/security-frontend.git](https://github.com/Eliasvit1/security-frontend.git)
 * **Commit History:**
+  * `42d1c7b` `refactor(frontend): migrate to React SPA with multi-page session persistence`
   * `c2187d2` `fix(dashboard): enforce security headers and suppress server tokens`
   * `09e273e` `fix(auth): sanitize user input to prevent XSS vulnerability`
   * `95341cb` `docs(security): add initial Nuclei security audit report`
@@ -69,6 +70,7 @@ To address the network connectivity and unreachable port consideration noted by 
 ### 2. Backend API Repository
 * **Remote URL:** [https://github.com/Eliasvit1/security-api.git](https://github.com/Eliasvit1/security-api.git)
 * **Commit History:**
+  * `4ca4bc6` `fix(cors): authorize React frontend development origins`
   * `831b6cc` `fix(api): enforce security headers and suppress server tokens`
   * `3508863` `fix(api): disable unauthenticated OpenAPI and Swagger documentation endpoints`
   * `405f695` `fix(api): implement rate limiting on sensitive endpoints`
@@ -78,6 +80,7 @@ To address the network connectivity and unreachable port consideration noted by 
 ### 3. LDAP Service Repository
 * **Remote URL:** [https://github.com/Eliasvit1/FastApi-Openldap.git](https://github.com/Eliasvit1/FastApi-Openldap.git)
 * **Commit History:**
+  * `31a907f` `fix(cors): authorize React frontend development origins`
   * `36e6d0c` `fix(auth): enforce security headers and suppress server tokens`
   * `c93f39c` `fix(auth): disable unauthenticated OpenAPI and Swagger documentation endpoints`
   * `2ef22fc` `fix(auth): restrict CORS origins and disable wildcard credentials`
