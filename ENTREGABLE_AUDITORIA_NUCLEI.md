@@ -30,25 +30,27 @@ Ante la observación técnica respecto a conectividad y puertos inaccesibles:
 
 ## 2. Enlaces a los Repositorios en GitHub y Commits Granulares
 
-### 1. Repositorio: Custom Dashboard (Frontend)
-* **URL GitHub:** [https://github.com/Eliasvit1/security-frontend](https://github.com/Eliasvit1/security-frontend)
-* **Carpeta de Reportes:** [security-reports](https://github.com/Eliasvit1/security-frontend/tree/main/security-reports)
+### 1. Repositorio: Custom Dashboard (Frontend en React)
+* **URL Principal:** [https://github.com/Eliasvit1/security-dashboard-frontend](https://github.com/Eliasvit1/security-dashboard-frontend)
+* **URL Base / Espejo:** [https://github.com/Eliasvit1/security-frontend](https://github.com/Eliasvit1/security-frontend)
+* **Carpeta de Reportes:** [security-reports](https://github.com/Eliasvit1/security-dashboard-frontend/tree/main/security-reports)
 * **Historial de Commits:**
-  1. [`95341cb`](https://github.com/Eliasvit1/security-frontend/commit/95341cb) - `docs(security): add initial Nuclei security audit report`
-  2. [`09e273e`](https://github.com/Eliasvit1/security-frontend/commit/09e273e) - `fix(auth): sanitize user input to prevent XSS vulnerability`
-  3. [`c2187d2`](https://github.com/Eliasvit1/security-frontend/commit/c2187d2) - `fix(dashboard): enforce security headers and suppress server tokens`
-  4. [`42d1c7b`](https://github.com/Eliasvit1/security-frontend/commit/42d1c7b) - `refactor(frontend): migrate to React SPA with multi-page session persistence`
+  1. [`95341cb`](https://github.com/Eliasvit1/security-dashboard-frontend/commit/95341cb) - `docs(security): add initial Nuclei security audit report`
+  2. [`09e273e`](https://github.com/Eliasvit1/security-dashboard-frontend/commit/09e273e) - `fix(auth): sanitize user input to prevent XSS vulnerability`
+  3. [`c2187d2`](https://github.com/Eliasvit1/security-dashboard-frontend/commit/c2187d2) - `fix(dashboard): enforce security headers and suppress server tokens`
+  4. [`42d1c7b`](https://github.com/Eliasvit1/security-dashboard-frontend/commit/42d1c7b) - `refactor(frontend): migrate to React SPA with multi-page session persistence`
 
 ### 2. Repositorio: Backend API
-* **URL GitHub:** [https://github.com/Eliasvit1/security-api](https://github.com/Eliasvit1/security-api)
-* **Carpeta de Reportes:** [security-reports](https://github.com/Eliasvit1/security-api/tree/main/security-reports)
+* **URL Principal:** [https://github.com/Eliasvit1/security-dashboard-backend](https://github.com/Eliasvit1/security-dashboard-backend)
+* **URL Base / Espejo:** [https://github.com/Eliasvit1/security-api](https://github.com/Eliasvit1/security-api)
+* **Carpeta de Reportes:** [security-reports](https://github.com/Eliasvit1/security-dashboard-backend/tree/main/security-reports)
 * **Historial de Commits:**
-  1. [`70bb1b0`](https://github.com/Eliasvit1/security-api/commit/70bb1b0) - `docs(security): add initial Nuclei security audit report`
-  2. [`e07f97b`](https://github.com/Eliasvit1/security-api/commit/e07f97b) - `fix(api): restrict CORS origins and disable wildcard credentials`
-  3. [`405f695`](https://github.com/Eliasvit1/security-api/commit/405f695) - `fix(api): implement rate limiting on sensitive endpoints`
-  4. [`3508863`](https://github.com/Eliasvit1/security-api/commit/3508863) - `fix(api): disable unauthenticated OpenAPI and Swagger documentation endpoints`
-  5. [`831b6cc`](https://github.com/Eliasvit1/security-api/commit/831b6cc) - `fix(api): enforce security headers and suppress server tokens`
-  6. [`4ca4bc6`](https://github.com/Eliasvit1/security-api/commit/4ca4bc6) - `fix(cors): authorize React frontend development origins`
+  1. [`70bb1b0`](https://github.com/Eliasvit1/security-dashboard-backend/commit/70bb1b0) - `docs(security): add initial Nuclei security audit report`
+  2. [`e07f97b`](https://github.com/Eliasvit1/security-dashboard-backend/commit/e07f97b) - `fix(api): restrict CORS origins and disable wildcard credentials`
+  3. [`405f695`](https://github.com/Eliasvit1/security-dashboard-backend/commit/405f695) - `fix(api): implement rate limiting on sensitive endpoints`
+  4. [`3508863`](https://github.com/Eliasvit1/security-dashboard-backend/commit/3508863) - `fix(api): disable unauthenticated OpenAPI and Swagger documentation endpoints`
+  5. [`831b6cc`](https://github.com/Eliasvit1/security-dashboard-backend/commit/831b6cc) - `fix(api): enforce security headers and suppress server tokens`
+  6. [`4ca4bc6`](https://github.com/Eliasvit1/security-dashboard-backend/commit/4ca4bc6) - `fix(cors): authorize React frontend development origins`
 
 ### 3. Repositorio: LDAP Service
 * **URL GitHub:** [https://github.com/Eliasvit1/FastApi-Openldap](https://github.com/Eliasvit1/FastApi-Openldap)

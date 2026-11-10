@@ -59,8 +59,9 @@ To address the network connectivity and unreachable port consideration noted by 
 
 ## 4. GitHub Remote Repositories & Commit Logs
 
-### 1. Custom Dashboard Repository
-* **Remote URL:** [https://github.com/Eliasvit1/security-frontend.git](https://github.com/Eliasvit1/security-frontend.git)
+### 1. Custom Dashboard Repository (React)
+* **Primary URL:** [https://github.com/Eliasvit1/security-dashboard-frontend.git](https://github.com/Eliasvit1/security-dashboard-frontend.git)
+* **Mirror / Base URL:** [https://github.com/Eliasvit1/security-frontend.git](https://github.com/Eliasvit1/security-frontend.git)
 * **Commit History:**
   * `42d1c7b` `refactor(frontend): migrate to React SPA with multi-page session persistence`
   * `c2187d2` `fix(dashboard): enforce security headers and suppress server tokens`
@@ -68,7 +69,8 @@ To address the network connectivity and unreachable port consideration noted by 
   * `95341cb` `docs(security): add initial Nuclei security audit report`
 
 ### 2. Backend API Repository
-* **Remote URL:** [https://github.com/Eliasvit1/security-api.git](https://github.com/Eliasvit1/security-api.git)
+* **Primary URL:** [https://github.com/Eliasvit1/security-dashboard-backend.git](https://github.com/Eliasvit1/security-dashboard-backend.git)
+* **Mirror / Base URL:** [https://github.com/Eliasvit1/security-api.git](https://github.com/Eliasvit1/security-api.git)
 * **Commit History:**
   * `4ca4bc6` `fix(cors): authorize React frontend development origins`
   * `831b6cc` `fix(api): enforce security headers and suppress server tokens`
